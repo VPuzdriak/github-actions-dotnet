@@ -18,6 +18,9 @@ jobs:
         with:
           dotnet-version: 8.0
 
+      - name: dotnet format
+        run: dotnet format -v detailed --verify-no-changes
+
       - name: Build with dotnet
         run: dotnet build --configuration Release
 
