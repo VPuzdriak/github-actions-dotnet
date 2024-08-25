@@ -8,7 +8,7 @@ targetScope = 'resourceGroup'
 module app './appservice.bicep' = {
   name: 'appservice'
   params: {
-    appName: 'dometrain-github-actions-scottsauber'
+    appName: 'dometrain-github-actions-vpuzdriak'
     environment: environment
     location: location
   }
